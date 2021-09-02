@@ -1,0 +1,141 @@
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="www.inglesindividual.com" resolutions="1x,2x" timestamp="1542849628414">
+  <folder name="assets">
+    <file name="aviso-de-privacidad_inglés-individual.pdf" crc="3871136353" seo="true" mt="1517545457000"/>
+    <file name="yadira_vega_testimonial_img.jpg" crc="4052530850" seo="true" mt="1538530559000"/>
+    <file name="esteban_rojas_testimonial_img.jpg" crc="3881548812" seo="true" mt="1538530608000"/>
+    <file name="maria_jose_testimonial_img.jpg" crc="136685585" seo="true" mt="1538530670000"/>
+  </folder>
+  <folder name="css">
+    <file name="site_global.css" crc="4199735493"/>
+    <file name="master_master-institutos.css" crc="67007193" ref="index"/>
+    <file name="nomq_preview_master_master-institutos.css" crc="4115556838" ref="index"/>
+    <file name="master_master-thanks.css" crc="3778734454" ref="gracias"/>
+    <file name="nomq_preview_master_master-thanks.css" crc="3824530138" ref="gracias"/>
+    <file name="index.css" crc="58473213" ref="index"/>
+    <file name="nomq_index.css" crc="3811722474" ref="index"/>
+    <file name="gracias.css" crc="341548847" ref="gracias"/>
+    <file name="nomq_gracias.css" crc="3837125456" ref="gracias"/>
+  </folder>
+  <folder name="fonts">
+    <file name="helveticaneueltstd-roman.woff" crc="4114068719"/>
+    <file name="helveticaneueltstd-roman.eot" crc="201895673"/>
+    <file name="helveticaneueltstd-roman.svg" crc="317224442"/>
+    <file name="helveticaneueltstd-th.woff" crc="3946094695"/>
+    <file name="helveticaneueltstd-th.eot" crc="437985863"/>
+    <file name="helveticaneueltstd-th.svg" crc="4125220693"/>
+    <file name="helveticaneueltstd-md.woff" crc="3834477221"/>
+    <file name="helveticaneueltstd-md.eot" crc="4128237018"/>
+    <file name="helveticaneueltstd-md.svg" crc="4289946536"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:gracias"/>
+    <file name="museutils.js" crc="340535759" ref="index:gracias"/>
+    <file name="whatinput.js" crc="86476730" ref="index:gracias"/>
+    <file name="museconfig.js" crc="4286661555" ref="index:gracias"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="4260645839" ref="index"/>
+    <file name="webpro.js" crc="4059564322" ref="index"/>
+    <file name="musewpslideshow.js" crc="3862962738" ref="index"/>
+    <file name="jquery.museoverlay.js" crc="4147669564" ref="index"/>
+    <file name="touchswipe.js" crc="4075097462" ref="index"/>
+    <file name="form_check.php" crc="4020933626" ref="index"/>
+    <file name="form_throttle.php" crc="4259590256" ref="index"/>
+    <file name="form_process.php" crc="37464564" ref="index"/>
+    <file name="form-u140968.php" crc="386833198" ref="index"/>
+    <file name="jquery.watch.js" crc="51536988" ref="index:gracias"/>
+    <file name="form-u159249.php" crc="416878279" ref="index"/>
+    <file name="jquery.museresponsive.js" crc="527716135" ref="index:gracias"/>
+    <file name="require.js" crc="7928878" ref="index:gracias"/>
+  </folder>
+  <folder name="images">
+    <file name="favicon.ico" crc="4186599077" ref="index"/>
+    <file name="inglesindividual_logo.svg" crc="3939484010" seo="true" ref="index:gracias">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="gracias" alt=""/>
+      <caption webpage="gracias" alt=""/>
+      <caption webpage="gracias" alt=""/>
+      <caption webpage="gracias" alt=""/>
+      <caption webpage="gracias" alt=""/>
+      <caption webpage="gracias" alt=""/>
+      <caption webpage="gracias" alt=""/>
+      <caption webpage="gracias" alt=""/>
+    </file>
+    <file name="inglesindividual_logo_poster_.png" crc="3851108562" ref="index"/>
+    <file name="blank.gif" crc="4208392903" ref="index:gracias"/>
+    <file name="up_arrow.svg" crc="4182642662" ref="index" seo="true">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="up_arrow_poster_u164683.png" crc="226232488" ref="index"/>
+    <file name="saeko_ico.svg" crc="3949735540" ref="index"/>
+    <file name="saeko_ico_poster_u170099.png" crc="135060362" ref="index"/>
+    <file name="horario_ico.svg" crc="330154381" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="horario_ico_poster_.png" crc="4075620164" ref="index"/>
+    <file name="grupos_reducidos_ico.svg" crc="4124644435" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="grupos_reducidos_ico_poster_.png" crc="4017707358" ref="index"/>
+    <file name="plan_pago_ico.svg" crc="460907365" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="plan_pago_ico_poster_.png" crc="148127763" ref="index"/>
+    <file name="clases_tradicionales_ico.svg" crc="3921782797" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="clases_tradicionales_ico_poster_.png" crc="3852198810" ref="index"/>
+    <file name="ies.svg" crc="4089212635" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="ies_poster_.png" crc="3957592095" ref="index"/>
+    <file name="diploma_ico.svg" crc="4088181855" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="diploma_ico_poster_.png" crc="160908706" ref="index"/>
+    <file name="sna.svg" crc="108070244" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="sna_poster_.png" crc="302409371" ref="index"/>
+    <file name="menu_ico.svg" crc="94757071" ref="index"/>
+    <file name="menu_ico_poster_u164747.png" crc="3970963968" ref="index"/>
+    <file name="close_ico.svg" crc="346903837" ref="index"/>
+    <file name="close_ico_poster_u164755.png" crc="193263071" ref="index"/>
+    <file name="school_ico.svg" crc="66008242" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="school_ico_poster_.png" crc="183486511" ref="index"/>
+    <file name="up_arrow_poster_.png" crc="226232488" ref="index"/>
+  </folder>
+  <file name="index.html" crc="3827780268" seo="true" mt="1542849605127" redirect="true"/>
+  <file name="gracias.html" crc="3906007764" seo="true" mt="1542849616008" redirect="true"/>
+</manifest>
