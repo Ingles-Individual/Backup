@@ -2533,7 +2533,7 @@ a {
   border-top-left-radius: 8px;
   border-bottom-left-radius: 8px;
   background-color: #232323;
-  background-image: url('../images/1080x1920_1.jpeg');
+  background-image: url('../images/B1080X1920.jpg');
   background-position: 50% 100%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -3351,12 +3351,16 @@ a {
     width: 50%;
   }
 
+  .navbar {
+    display: block;
+  }
+
   .section-6.reviews {
     background-color: #fff;
   }
 
   .form2-image-wrapper-2 {
-    background-image: url('../images/1080x1920_1.jpeg');
+    background-image: url('../images/B1080X1920.jpg');
     background-position: 50% 100%;
   }
 
@@ -4040,8 +4044,8 @@ a {
     margin-right: 0px;
     border-top-right-radius: 8px;
     border-bottom-left-radius: 0px;
-    background-image: url('../images/1200x1200_1.jpeg');
-    background-position: 50% 50%;
+    background-image: url('../images/b1200x800.jpg');
+    background-position: 0% 50%;
   }
 
   .link-5 {
@@ -4660,8 +4664,8 @@ a {
 
   .form2-image-wrapper-2 {
     height: 400px;
-    background-image: url('../images/1200x1200_1.jpeg');
-    background-position: 50% 70%;
+    background-image: url('../images/b1200x800.jpg');
+    background-position: 0% 50%;
     background-size: cover;
   }
 
@@ -5296,8 +5300,8 @@ a {
 
   .form2-image-wrapper-2 {
     height: 420px;
-    background-image: url('../images/1080x1920_1.jpeg');
-    background-position: 50% 50%;
+    background-image: url('../images/B1080X1920.jpg');
+    background-position: 50% 100%;
   }
 
   .link-5 {
