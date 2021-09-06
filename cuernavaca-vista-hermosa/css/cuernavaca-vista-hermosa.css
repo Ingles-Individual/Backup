@@ -354,7 +354,10 @@ a {
   top: 0%;
   right: 0%;
   bottom: auto;
-  display: block;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   margin-right: auto;
   margin-left: auto;
   border-bottom: 1px solid #e7e7e7;
@@ -522,6 +525,10 @@ a {
 .paragraph {
   font-family: 'Nunito Sans', sans-serif;
   font-size: 25px;
+}
+
+.paragraph.gracias {
+  font-weight: 400;
 }
 
 .heading {
@@ -2103,15 +2110,22 @@ a {
 
 .btn-3.gracias {
   display: block;
-  width: 300px;
+  width: 400px;
   margin-top: 35px;
   margin-right: auto;
   margin-left: auto;
+  background-color: #fff;
+  color: #000;
 }
 
 .btn-3.gracias:hover {
   background-color: #f2f2f2;
   color: #232323;
+}
+
+.btn-3.download {
+  display: block;
+  width: 400px;
 }
 
 .hero3-text-wrapper {
@@ -2298,8 +2312,8 @@ a {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#80d9ff), to(#dbfbff));
-  background-image: linear-gradient(180deg, #80d9ff, #dbfbff);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#e7e7e7), to(#e7e7e7));
+  background-image: linear-gradient(180deg, #e7e7e7, #e7e7e7);
 }
 
 .div-block-20 {
@@ -2308,8 +2322,25 @@ a {
   top: 0%;
   right: 0%;
   bottom: 0%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   width: 60%;
   padding-top: 0%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .heading-20 {
@@ -3206,6 +3237,12 @@ a {
   margin-left: 30px;
 }
 
+.div-block-46 {
+  width: 70%;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
 @media screen and (min-width: 1280px) {
   .wrap.w50 {
     width: 70%;
@@ -3275,6 +3312,11 @@ a {
     margin-right: auto;
     margin-left: auto;
   }
+
+  .div-block-46 {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
 }
 
 @media screen and (min-width: 1440px) {
@@ -3335,6 +3377,11 @@ a {
 
   .form2-4 {
     width: 50%;
+  }
+
+  .div-block-46 {
+    margin-right: 0px;
+    margin-left: 0px;
   }
 }
 
@@ -3518,6 +3565,10 @@ a {
 
   .image-3 {
     width: 70px;
+  }
+
+  .paragraph.gracias {
+    font-weight: 400;
   }
 
   .link-2 {
@@ -3805,6 +3856,15 @@ a {
     text-align: center;
   }
 
+  .btn-3.gracias {
+    background-color: #fff;
+    color: #000;
+  }
+
+  .btn-3.download {
+    width: 400px;
+  }
+
   .hero3-text-wrapper {
     margin-bottom: 0px;
     padding-top: 70px;
@@ -3973,6 +4033,11 @@ a {
 
   .image-21 {
     margin-top: 30px;
+  }
+
+  .section-15 {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#e7e7e7), to(#e7e7e7));
+    background-image: linear-gradient(180deg, #e7e7e7, #e7e7e7);
   }
 
   .div-block-20 {
@@ -4255,6 +4320,15 @@ a {
   }
 
   .html-embed-9 {
+    text-align: center;
+  }
+
+  .div-block-46 {
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .html-embed-10 {
     text-align: center;
   }
 }
@@ -4869,6 +4943,16 @@ a {
     margin-right: auto;
     margin-left: auto;
   }
+
+  .div-block-46 {
+    width: auto;
+  }
+
+  .html-embed-10 {
+    width: auto;
+    margin-right: auto;
+    margin-left: auto;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -4892,6 +4976,10 @@ a {
 
   .image-3 {
     width: 70px;
+  }
+
+  .paragraph.gracias {
+    font-size: 16px;
   }
 
   .grid-3 {
@@ -5187,7 +5275,13 @@ a {
   }
 
   .btn-3.gracias {
-    width: 200px;
+    width: auto;
+    margin-top: 0px;
+  }
+
+  .btn-3.download {
+    width: auto;
+    margin-bottom: 25px;
   }
 
   .section-12._2 {
@@ -5480,6 +5574,16 @@ a {
 
   .tagline-4 {
     line-height: 1.3;
+  }
+
+  .html-embed-10 {
+    display: inline;
+    overflow: hidden;
+    margin-right: 0px;
+    margin-left: 0px;
+    background-color: transparent;
+    -o-object-fit: none;
+    object-fit: none;
   }
 }
 
