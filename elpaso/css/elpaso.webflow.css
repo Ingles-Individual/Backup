@@ -3050,7 +3050,10 @@ a {
   }
 
   .navbar {
-    display: none;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
   }
 
   .paragraph-77 {
@@ -3096,6 +3099,10 @@ a {
 
   .form2-image-wrapper-2 {
     background-image: url('../images/mayo06.png');
+  }
+
+  .div-block-38 {
+    display: none;
   }
 
   .grid-16 {
