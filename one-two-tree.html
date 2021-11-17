@@ -1,5 +1,5 @@
 <!DOCTYPE html><!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Tue Sep 07 2021 18:54:36 GMT+0000 (Coordinated Universal Time)  -->
+<!--  Last Published: Tue Nov 16 2021 15:00:30 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="5c81ef5521471469e02f22f7" data-wf-site="5c79a15aaccee6410a769478">
 <head>
   <meta charset="utf-8">
@@ -51,7 +51,7 @@
             </script>
 </head>
 <body class="body-2">
-  <div data-collapse="medium" data-animation="default" data-duration="400" role="banner" class="navbar navbar-2 navbar-3 w-nav">
+  <div data-collapse="medium" data-animation="default" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="navbar navbar-2 navbar-3 w-nav">
     <div class="container w-container">
       <div class="w-layout-grid grid">
         <div id="w-node-a9dffcc5-0d04-0757-35d6-b148a6e563cc-a6e563c9" data-w-id="a9dffcc5-0d04-0757-35d6-b148a6e563cc" class="div-block menu-nav"><img src="images/menu_ico.svg" width="50" alt="Boton_menu-nav" data-w-id="a9dffcc5-0d04-0757-35d6-b148a6e563cd" class="image-3"><img src="images/close_ico.svg" alt="Boton_menu-nav" width="40" data-w-id="a9dffcc5-0d04-0757-35d6-b148a6e563ce" class="image-3"></div>
@@ -124,7 +124,7 @@
     </div>
   </div>
   <div class="hero-home ontetwotree wf-section">
-    <div data-delay="4000" data-animation="over" data-autoplay="1" data-easing="ease-in-quart" data-hide-arrows="1" data-duration="800" data-infinite="1" class="slider onetwotree w-slider">
+    <div data-delay="4000" data-animation="over" class="slider onetwotree w-slider" data-autoplay="true" data-easing="ease-in-quart" data-hide-arrows="true" data-disable-swipe="false" data-autoplay-limit="0" data-nav-spacing="3" data-duration="800" data-infinite="true">
       <div class="w-slider-mask">
         <div data-w-id="a3a9caef-e07a-add5-5ea1-67921d63dec8" class="slide-1 onetwotree w-slide">
           <div class="div-block-27">
@@ -258,7 +258,7 @@ jQuery(document).ready(function($) {
   $("span.counter").counterUp({
     delay: 75, /* The delay in milliseconds per number count up */
     time: 2000, /*The total duration of the count up animation */
-    offset: 100,
+    offset: 100, 
     /*The viewport percentile from which the counter starts (by default it's 100, meaning it's triggered at the very moment the element enters the viewport) */
   });
 });
