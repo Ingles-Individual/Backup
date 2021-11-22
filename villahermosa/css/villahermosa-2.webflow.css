@@ -3077,7 +3077,7 @@ a {
 
 @media screen and (min-width: 1280px) {
   .wrap.w50 {
-    width: 70%;
+    width: 80%;
   }
 
   .paragraph-8.revs {
@@ -3148,7 +3148,7 @@ a {
 
 @media screen and (min-width: 1440px) {
   .wrap.w50 {
-    width: 60%;
+    width: 80%;
   }
 
   .paragraph-8.revs {
@@ -3205,7 +3205,7 @@ a {
 
 @media screen and (min-width: 1920px) {
   .wrap.w50 {
-    width: 50%;
+    width: 60%;
   }
 
   .section-6.reviews {
