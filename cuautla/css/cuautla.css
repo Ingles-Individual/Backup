@@ -354,10 +354,7 @@ a {
   top: 0%;
   right: 0%;
   bottom: auto;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  display: none;
   margin-right: auto;
   margin-left: auto;
   border-bottom: 1px solid #e7e7e7;
