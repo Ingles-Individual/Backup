@@ -354,7 +354,7 @@ a {
   top: 0%;
   right: 0%;
   bottom: auto;
-  display: none;
+  display: block;
   margin-right: auto;
   margin-left: auto;
   border-bottom: 1px solid #e7e7e7;
