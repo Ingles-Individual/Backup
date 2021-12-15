@@ -55,7 +55,7 @@ a {
   top: 0%;
   right: 0%;
   bottom: auto;
-  display: none;
+  display: block;
   margin-right: auto;
   margin-left: auto;
   border-bottom: 1px solid #e7e7e7;
@@ -952,7 +952,7 @@ a {
   padding-left: 5%;
   font-family: 'Nunito Sans', sans-serif;
   color: #232323;
-  font-size: 30px;
+  font-size: 24px;
   font-weight: 300;
   text-align: left;
   text-decoration: none;
