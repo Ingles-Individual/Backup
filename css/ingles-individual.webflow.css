@@ -3951,7 +3951,7 @@ a {
   }
 
   .slider-home-container {
-    margin-top: 300px;
+    margin-top: 0px;
   }
 
   .image-31 {
@@ -4035,6 +4035,10 @@ a {
     margin-bottom: 0px;
     padding-top: 60px;
     padding-bottom: 60px;
+  }
+
+  .slider-home-container {
+    margin-top: 0px;
   }
 
   .image-31 {
@@ -4203,7 +4207,7 @@ a {
   }
 
   .slider-home-container {
-    margin-top: 300px;
+    margin-top: 0px;
   }
 
   .sub-menu-link-container {
