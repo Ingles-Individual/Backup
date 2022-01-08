@@ -1863,11 +1863,23 @@ a {
 }
 
 ._7-col._7-col-last {
-  display: inline-block;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   height: 100%;
   min-height: 750px;
   margin-right: 0px;
   padding: 40px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 ._5-col {
@@ -2721,17 +2733,13 @@ a {
   overflow: visible;
   height: auto;
   margin-top: 60px;
-  background-color: #fff;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#00d2c3), to(#06c4da));
-  background-image: linear-gradient(180deg, #00d2c3, #06c4da);
+  background-color: #23a549;
 }
 
 .section-17.contacto2 {
   margin-top: 0px;
   padding-top: 50px;
-  background-color: #232323;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#00d2c3), to(#06c4da));
-  background-image: linear-gradient(180deg, #00d2c3, #06c4da);
+  background-color: #23a549;
 }
 
 .form2-image-wrapper-2 {
@@ -3005,7 +3013,7 @@ a {
   border-top-left-radius: 8px;
   border-bottom-left-radius: 8px;
   background-color: #232323;
-  background-image: url('../images/audio-visual-02.jpg');
+  background-image: url('../images/IMG_2934.jpg');
   background-position: 30% 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -3088,6 +3096,19 @@ a {
   transform: translate(0px, -1px);
 }
 
+.h1 {
+  margin-top: 0px;
+  margin-bottom: 25px;
+  font-family: 'Nunito Sans', sans-serif;
+  color: #232323;
+  line-height: 1.3;
+  font-weight: 800;
+}
+
+.h1.centered {
+  color: #23a549;
+}
+
 @media screen and (min-width: 1280px) {
   .wrap.w50 {
     width: 70%;
@@ -3126,8 +3147,7 @@ a {
   }
 
   .section-17 {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#00d2c3), to(#06c4da));
-    background-image: linear-gradient(180deg, #00d2c3, #06c4da);
+    background-color: #23a549;
   }
 
   .form2-image-wrapper-2 {
@@ -3166,11 +3186,6 @@ a {
   .grid-13 {
     -ms-grid-columns: 0.4fr 0.5fr 0.5fr 1fr 1fr 1fr 1fr 0.5fr 0.5fr 0.75fr;
     grid-template-columns: 0.4fr 0.5fr 0.5fr 1fr 1fr 1fr 1fr 0.5fr 0.5fr 0.75fr;
-  }
-
-  .section-17 {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#00d2c3), to(#06c4da));
-    background-image: linear-gradient(180deg, #00d2c3, #06c4da);
   }
 
   .form2-image-wrapper-2 {
@@ -3220,11 +3235,6 @@ a {
 
   .container-button {
     width: 60%;
-  }
-
-  .section-17 {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#00d2c3), to(#06c4da));
-    background-image: linear-gradient(180deg, #00d2c3, #06c4da);
   }
 
   .form2-image-wrapper-2 {
@@ -3609,6 +3619,10 @@ a {
   ._7-col._7-col-last {
     overflow: visible;
     height: auto;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
   }
 
   ._5-col {
@@ -3949,7 +3963,7 @@ a {
     margin-right: 0px;
     border-top-right-radius: 8px;
     border-bottom-left-radius: 0px;
-    background-image: url('../images/audio-visual-02.jpg');
+    background-image: url('../images/IMG_2934.jpg');
     background-position: 50% 50%;
   }
 
@@ -3982,6 +3996,10 @@ a {
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
+  }
+
+  .h1.centered {
+    text-align: center;
   }
 }
 
@@ -4510,8 +4528,8 @@ a {
 
   .form2-image-wrapper-3 {
     height: 400px;
-    background-image: url('../images/audio-visual-02.jpg');
-    background-position: 50% 70%;
+    background-image: url('../images/IMG_2934.jpg');
+    background-position: 50% 50%;
     background-size: cover;
   }
 
@@ -4534,6 +4552,10 @@ a {
     margin-right: auto;
     margin-left: auto;
   }
+
+  .h1.centered {
+    font-size: 28px;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -4545,6 +4567,10 @@ a {
   .grid {
     -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
+
+  .navbar {
+    display: block;
   }
 
   .button {
@@ -4943,7 +4969,15 @@ a {
   }
 
   .grid-14 {
-    grid-row-gap: 30px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
     -ms-grid-rows: auto auto auto auto;
@@ -5034,7 +5068,7 @@ a {
 
   .form2-image-wrapper-3 {
     height: 350px;
-    background-image: url('../images/audio-visual-02.jpg');
+    background-image: url('../images/IMG_2934.jpg');
     background-position: 50% 50%;
   }
 
@@ -5061,6 +5095,10 @@ a {
     margin-left: auto;
     font-size: 16px;
     text-align: center;
+  }
+
+  .h1.centered {
+    font-size: 22px;
   }
 }
 
