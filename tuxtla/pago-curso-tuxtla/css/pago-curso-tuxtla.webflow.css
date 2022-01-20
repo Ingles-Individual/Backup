@@ -349,7 +349,7 @@ a {
   top: 0%;
   right: 0%;
   bottom: auto;
-  display: block;
+  display: none;
   margin-right: auto;
   margin-left: auto;
   border-bottom: 1px solid #e7e7e7;
@@ -456,8 +456,9 @@ a {
   align-self: center;
   background-color: #00d2c3;
   box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.21);
-  -webkit-transform: scale(1.05) perspective(0px);
-  transform: scale(1.05) perspective(0px);
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
   -webkit-transform-origin: 50% 50%;
   -ms-transform-origin: 50% 50%;
   transform-origin: 50% 50%;
@@ -2641,10 +2642,11 @@ a {
 }
 
 .card-advert-2._1 {
-  padding-top: 30px;
+  padding: 24px;
 }
 
 .card-advert-2._4 {
+  padding-top: 35px;
   background-image: url('../images/pago-4.jpg');
 }
 
@@ -2699,18 +2701,20 @@ a {
 }
 
 .text-block-5 {
-  color: #fff;
+  color: #000;
   font-size: 14px;
   text-align: center;
 }
 
 .text-block-5._02 {
-  margin-top: 20px;
+  margin-top: 0px;
   color: #000;
 }
 
 .heading-21 {
   color: #20193a;
+  font-size: 24px;
+  line-height: 1.4;
   text-align: center;
 }
 
@@ -4570,8 +4574,8 @@ a {
 #w-node-e34b2e52-3a0d-2442-54b1-a8824ea887d6-a6e563c9 {
   -ms-grid-column: 1;
   grid-column-start: 1;
-  -ms-grid-column-span: 1;
-  grid-column-end: 2;
+  -ms-grid-column-span: 2;
+  grid-column-end: 3;
   -ms-grid-row: 3;
   grid-row-start: 3;
   -ms-grid-row-span: 1;
