@@ -2086,6 +2086,10 @@ a {
   text-align: center;
 }
 
+.text-20._1 {
+  font-size: 16px;
+}
+
 .cta5-option-headline {
   width: 70%;
   margin-top: 2px;
@@ -3698,7 +3702,7 @@ a {
 }
 
 .navbar-3 {
-  display: block;
+  display: none;
 }
 
 .slide-11 {
@@ -7341,21 +7345,6 @@ a {
   grid-column-end: 3;
   -ms-grid-column: 2;
   grid-column-start: 2;
-  -ms-grid-row-span: 1;
-  grid-row-end: 3;
-  -ms-grid-row: 2;
-  grid-row-start: 2;
-}
-
-#w-node-_7fd4fc06-89b4-ac29-8c18-46cbff589805-db9f9175 {
-  -ms-grid-row-align: auto;
-  align-self: auto;
-  -ms-grid-column-align: auto;
-  justify-self: auto;
-  -ms-grid-column-span: 1;
-  grid-column-end: 4;
-  -ms-grid-column: 3;
-  grid-column-start: 3;
   -ms-grid-row-span: 1;
   grid-row-end: 3;
   -ms-grid-row: 2;
