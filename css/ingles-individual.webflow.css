@@ -2117,7 +2117,7 @@ a {
 }
 
 .cta5-items-wrap {
-  margin-top: -20px;
+  margin-top: 0px;
 }
 
 .headline-8-col {
@@ -3702,7 +3702,7 @@ a {
 }
 
 .navbar-3 {
-  display: none;
+  display: block;
 }
 
 .slide-11 {
@@ -5670,6 +5670,10 @@ a {
     margin-left: auto;
   }
 
+  .cta5-item-wrap {
+    width: 90%;
+  }
+
   .cta5-item-wrap.prox-apert {
     width: 100%;
   }
@@ -6015,6 +6019,13 @@ a {
 }
 
 @media screen and (max-width: 479px) {
+  .text-16.text-16-60 {
+    display: block;
+    width: auto;
+    font-size: 14px;
+    line-height: 1.4;
+  }
+
   .btn {
     display: block;
     text-align: center;
@@ -6471,6 +6482,19 @@ a {
     margin-bottom: 10px;
   }
 
+  .cta5-item-wrap {
+    width: auto;
+    padding: 16px 8px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+
+  .cta5-option-headline {
+    width: 90%;
+  }
+
   .cta5-option-headline.center {
     width: 100%;
   }
@@ -6754,6 +6778,7 @@ a {
   }
 
   .accordion-item {
+    display: block;
     width: auto;
     padding-right: 25px;
     padding-left: 25px;
