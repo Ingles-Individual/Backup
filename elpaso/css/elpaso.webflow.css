@@ -3037,6 +3037,10 @@ a {
   width: 90%;
 }
 
+.hubspot-container.desktop {
+  width: auto;
+}
+
 .hubspot-container.mobile {
   display: none;
 }
@@ -3044,6 +3048,10 @@ a {
 .html-embed-7 {
   width: 80%;
   margin-bottom: 0px;
+}
+
+.html-embed-7.dektop {
+  width: auto;
 }
 
 @media screen and (min-width: 1280px) {
