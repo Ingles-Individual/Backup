@@ -587,8 +587,8 @@ a {
   grid-template-areas: ".";
   -ms-grid-columns: 1fr;
   grid-template-columns: 1fr;
-  -ms-grid-rows: auto 35px auto 35px auto 35px auto 35px auto 35px auto;
-  grid-template-rows: auto auto auto auto auto auto;
+  -ms-grid-rows: auto 35px auto 35px auto 35px auto 35px auto;
+  grid-template-rows: auto auto auto auto auto;
 }
 
 .link-2 {
@@ -603,6 +603,7 @@ a {
 }
 
 .column {
+  height: 100%;
   padding-top: 30px;
   padding-bottom: 54px;
   border-right: 1px solid #e7e7e7;
@@ -655,7 +656,8 @@ a {
 }
 
 .column-3 {
-  padding: 30px 0px 66px;
+  height: 100%;
+  padding: 30px 0px 0px;
 }
 
 .paragraph-4 {
@@ -699,14 +701,15 @@ a {
 }
 
 .grid-7 {
+  display: block;
   padding-top: 30px;
   padding-left: 50px;
   grid-row-gap: 12px;
   grid-template-areas: ". . ."
     ". . ."
     ". . .";
-  -ms-grid-columns: 1fr 1fr 0.25fr;
-  grid-template-columns: 1fr 1fr 0.25fr;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   -ms-grid-rows: auto 12px auto 12px auto;
   grid-template-rows: auto auto auto;
 }
@@ -726,6 +729,7 @@ a {
 }
 
 .grid-8 {
+  height: 100%;
   padding-left: 50px;
   grid-template-areas: "."
     "."
@@ -740,7 +744,7 @@ a {
   overflow: visible;
   height: 100%;
   padding-top: 30px;
-  padding-bottom: 187px;
+  padding-bottom: 0px;
   border-left: 1px solid #e7e7e7;
 }
 
@@ -787,6 +791,7 @@ a {
 
 .columns-2 {
   display: block;
+  height: 100%;
 }
 
 .hero-home {
@@ -2101,6 +2106,7 @@ a {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  width: auto;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -6885,7 +6891,7 @@ a {
   grid-row-end: 4;
 }
 
-#w-node-_55f860a3-c674-c059-ae95-c8f5c19e09ed-a6e563c9 {
+#w-node-a9dffcc5-0d04-0757-35d6-b148a6e563df-a6e563c9 {
   -ms-grid-column: 1;
   grid-column-start: 1;
   -ms-grid-column-span: 1;
@@ -6896,7 +6902,7 @@ a {
   grid-row-end: 5;
 }
 
-#w-node-a9dffcc5-0d04-0757-35d6-b148a6e563df-a6e563c9 {
+#w-node-a9dffcc5-0d04-0757-35d6-b148a6e563e1-a6e563c9 {
   -ms-grid-column: 1;
   grid-column-start: 1;
   -ms-grid-column-span: 1;
@@ -6905,17 +6911,6 @@ a {
   grid-row-start: 5;
   -ms-grid-row-span: 1;
   grid-row-end: 6;
-}
-
-#w-node-a9dffcc5-0d04-0757-35d6-b148a6e563e1-a6e563c9 {
-  -ms-grid-column: 1;
-  grid-column-start: 1;
-  -ms-grid-column-span: 1;
-  grid-column-end: 2;
-  -ms-grid-row: 6;
-  grid-row-start: 6;
-  -ms-grid-row-span: 1;
-  grid-row-end: 7;
 }
 
 #w-node-a9dffcc5-0d04-0757-35d6-b148a6e563e6-a6e563c9 {
@@ -7376,6 +7371,21 @@ a {
   grid-row-start: 2;
 }
 
+#w-node-_565dc3c2-7f75-7594-7224-c5cc0f95857e-db9f9175 {
+  -ms-grid-row-align: auto;
+  align-self: auto;
+  -ms-grid-column-align: auto;
+  justify-self: auto;
+  -ms-grid-column-span: 1;
+  grid-column-end: 4;
+  -ms-grid-column: 3;
+  grid-column-start: 3;
+  -ms-grid-row-span: 1;
+  grid-row-end: 3;
+  -ms-grid-row: 2;
+  grid-row-start: 2;
+}
+
 @media screen and (min-width: 1280px) {
   #w-node-a9dffcc5-0d04-0757-35d6-b148a6e563cf-a6e563c9 {
     -ms-grid-column-align: center;
@@ -7436,17 +7446,6 @@ a {
     grid-row-start: 1;
     -ms-grid-row-span: 1;
     grid-row-end: 2;
-  }
-
-  #w-node-_55f860a3-c674-c059-ae95-c8f5c19e09ed-a6e563c9 {
-    -ms-grid-column: 1;
-    grid-column-start: 1;
-    -ms-grid-column-span: 1;
-    grid-column-end: 2;
-    -ms-grid-row: 4;
-    grid-row-start: 4;
-    -ms-grid-row-span: 1;
-    grid-row-end: 5;
   }
 
   #w-node-a9dffcc5-0d04-0757-35d6-b148a6e563df-a6e563c9 {
@@ -7618,17 +7617,6 @@ a {
     grid-column-start: 1;
     -ms-grid-column-span: 1;
     grid-column-end: 2;
-    -ms-grid-row: 2;
-    grid-row-start: 2;
-    -ms-grid-row-span: 1;
-    grid-row-end: 3;
-  }
-
-  #w-node-_55f860a3-c674-c059-ae95-c8f5c19e09ed-a6e563c9 {
-    -ms-grid-column: 2;
-    grid-column-start: 2;
-    -ms-grid-column-span: 1;
-    grid-column-end: 3;
     -ms-grid-row: 2;
     grid-row-start: 2;
     -ms-grid-row-span: 1;
@@ -7843,17 +7831,6 @@ a {
     grid-row-start: 3;
     -ms-grid-row-span: 1;
     grid-row-end: 4;
-  }
-
-  #w-node-_55f860a3-c674-c059-ae95-c8f5c19e09ed-a6e563c9 {
-    -ms-grid-column: 1;
-    grid-column-start: 1;
-    -ms-grid-column-span: 1;
-    grid-column-end: 2;
-    -ms-grid-row: 4;
-    grid-row-start: 4;
-    -ms-grid-row-span: 1;
-    grid-row-end: 5;
   }
 
   #w-node-a9dffcc5-0d04-0757-35d6-b148a6e563df-a6e563c9 {
