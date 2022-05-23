@@ -458,8 +458,9 @@ a {
   align-self: center;
   background-color: #00d2c3;
   box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.21);
-  -webkit-transform: scale(1.05) perspective(0px);
-  transform: scale(1.05) perspective(0px);
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
   -webkit-transform-origin: 50% 50%;
   -ms-transform-origin: 50% 50%;
   transform-origin: 50% 50%;
@@ -2567,8 +2568,9 @@ a {
   align-self: center;
   background-color: #00d2c3;
   box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.21);
-  -webkit-transform: scale(1.05) perspective(0px);
-  transform: scale(1.05) perspective(0px);
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
   -webkit-transform-origin: 50% 50%;
   -ms-transform-origin: 50% 50%;
   transform-origin: 50% 50%;
