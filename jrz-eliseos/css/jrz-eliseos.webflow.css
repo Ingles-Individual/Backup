@@ -464,8 +464,9 @@ a {
   align-self: center;
   background-color: #00d2c3;
   box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.21);
-  -webkit-transform: scale(1.05) perspective(0px);
-  transform: scale(1.05) perspective(0px);
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
   -webkit-transform-origin: 50% 50%;
   -ms-transform-origin: 50% 50%;
   transform-origin: 50% 50%;
@@ -2583,8 +2584,9 @@ a {
   align-self: center;
   background-color: #00d2c3;
   box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.21);
-  -webkit-transform: scale(1.05) perspective(0px);
-  transform: scale(1.05) perspective(0px);
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
   -webkit-transform-origin: 50% 50%;
   -ms-transform-origin: 50% 50%;
   transform-origin: 50% 50%;
@@ -3119,7 +3121,7 @@ a {
   border-top-left-radius: 8px;
   border-bottom-left-radius: 8px;
   background-color: transparent;
-  background-image: url('../images/Promo_Enero_Material-Didactico-02.jpg');
+  background-image: url('../images/61772ed459ae38a1cf9f6d16_contact-form-image-ver.jpeg');
   background-position: 50% 0%;
   background-size: cover;
 }
@@ -4120,7 +4122,7 @@ a {
     margin-right: 0px;
     border-top-right-radius: 8px;
     border-bottom-left-radius: 0px;
-    background-image: url('../images/Promo_Enero_Material-Didactico.jpg');
+    background-image: url('../images/61772ed4d2571a0abebde0d9_contact-image-hor.jpeg');
   }
 
   .div-block-42 {
@@ -4726,7 +4728,8 @@ a {
 
   .form2-image-wrapper-4 {
     height: 400px;
-    background-image: url('../images/Promo_Enero_Material-Didactico.jpg');
+    background-image: url('../images/61772ed4d2571a0abebde0d9_contact-image-hor.jpeg');
+    background-position: 50% 50%;
   }
 
   .div-block-42 {
@@ -5032,7 +5035,7 @@ a {
 
   ._7-col._7-col-last {
     overflow: visible;
-    width: 90%;
+    width: auto;
     height: auto;
     padding-right: 20px;
     padding-left: 20px;
@@ -5291,7 +5294,7 @@ a {
 
   .form2-image-wrapper-4 {
     height: 350px;
-    background-image: url('../images/Promo_Enero_Material-Didactico-02.jpg');
+    background-image: url('../images/61772ed459ae38a1cf9f6d16_contact-form-image-ver.jpeg');
   }
 
   .form2-4 {
