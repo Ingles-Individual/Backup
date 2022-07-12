@@ -3178,7 +3178,7 @@ figcaption {
 }
 
 .color-accent-1 {
-  color: #05c168;
+  color: #0e6eff;
 }
 
 .color-secondary-1 {
@@ -4306,7 +4306,7 @@ figcaption {
   -ms-flex-pack: center;
   justify-content: center;
   border-radius: 100000000px;
-  background-color: #05c168;
+  background-color: #0e6eff;
   -webkit-transition: background-color 300ms ease, color 300ms ease, -webkit-transform 300ms ease;
   transition: background-color 300ms ease, color 300ms ease, -webkit-transform 300ms ease;
   transition: background-color 300ms ease, transform 300ms ease, color 300ms ease;
@@ -4322,7 +4322,7 @@ figcaption {
 }
 
 .btn-primary:hover {
-  background-color: #11845b;
+  background-color: #0051cc;
   -webkit-transform: scale3d(0.98, 0.98, 1.01);
   transform: scale3d(0.98, 0.98, 1.01);
   color: #fff;
@@ -4330,17 +4330,18 @@ figcaption {
 
 .btn-primary.small {
   padding: 15px 20px;
+  background-color: #0e6eff;
   font-size: 16px;
   line-height: 1.125em;
 }
 
 .btn-primary.small:hover {
-  background-color: #11845b;
+  background-color: #0051cc;
 }
 
 .btn-primary.small.header-btn-hidde-on-mb {
   margin-left: 24px;
-  background-color: #05c168;
+  background-color: #0e6eff;
 }
 
 .btn-primary.small.discount {
@@ -4448,7 +4449,7 @@ figcaption {
 }
 
 .btn-secondary:hover {
-  background-color: #11845b;
+  background-color: #0051cc;
   -webkit-transform: scale3d(0.98, 0.98, 1.01);
   transform: scale3d(0.98, 0.98, 1.01);
   color: #fff;
@@ -5190,10 +5191,10 @@ figcaption {
   -ms-flex-align: center;
   align-items: center;
   border-radius: 8px;
-  background-color: #def2e6;
+  background-color: #e9f2ff;
   -webkit-transition: background-color 300ms ease, color 300ms ease;
   transition: background-color 300ms ease, color 300ms ease;
-  color: #05c168;
+  color: #0e6eff;
   text-decoration: none;
 }
 
@@ -5603,11 +5604,11 @@ figcaption {
 }
 
 .link-wrapper:hover {
-  color: #05c168;
+  color: #0e6eff;
 }
 
 .link-wrapper.color-primary {
-  color: #05c168;
+  color: #0e6eff;
 }
 
 .link-wrapper.color-primary:hover {
@@ -5615,7 +5616,11 @@ figcaption {
 }
 
 .link-wrapper.color-primary.text-bold {
-  color: #05c168;
+  color: #0e6eff;
+}
+
+.link-wrapper.color-primary.text-bold.text-300 {
+  color: #0e6eff;
 }
 
 .link-wrapper.color-primary.text-bold.no-hover:hover {
@@ -6338,7 +6343,7 @@ figcaption {
 }
 
 .text-decoration-none {
-  color: #05c168;
+  color: #0e6eff;
   text-decoration: none;
 }
 
