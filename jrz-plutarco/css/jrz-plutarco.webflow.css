@@ -4154,12 +4154,23 @@ a {
     margin-left: auto;
   }
 
+  .link-block-12 {
+    width: auto;
+    margin-right: 16px;
+  }
+
   .container-button.yellow {
     width: auto;
   }
 
   .container-button.yellow {
-    width: 40%;
+    width: auto;
+    padding: 8px 24px;
+  }
+
+  .container-button.orange {
+    width: auto;
+    padding: 8px 24px;
   }
 
   .button-5 {
@@ -4292,6 +4303,18 @@ a {
     grid-template-rows: auto auto;
     text-align: center;
   }
+
+  .div-block-42 {
+    display: -ms-grid;
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    -ms-grid-columns: auto auto;
+    grid-template-columns: auto auto;
+    -ms-grid-rows: auto;
+    grid-template-rows: auto;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -4303,6 +4326,10 @@ a {
   .grid {
     -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
+
+  .navbar {
+    display: block;
   }
 
   .button {
@@ -4665,6 +4692,11 @@ a {
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
+  }
+
+  .link-block-12 {
+    margin-right: 0px;
+    margin-bottom: 40px;
   }
 
   .container-button.yellow {
